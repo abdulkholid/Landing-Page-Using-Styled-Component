@@ -22,17 +22,20 @@ const Menu = () => {
 			</MenuItem>
 			<MenuItem>
 				<MenuLinkDisbaled to="/program">
-					Program <FiChevronDown />
+					Programs <FiChevronDown />
 				</MenuLinkDisbaled>
 				<Dropdown>
 					<DropdownMenuItem>
-						<DropdownMenuLink>Sub menu 1</DropdownMenuLink>
+						<DropdownMenuLink to="/">UKM Go Digital</DropdownMenuLink>
 					</DropdownMenuItem>
 					<DropdownMenuItem>
-						<DropdownMenuLink>Sub menu 1</DropdownMenuLink>
+						<DropdownMenuLink to="/">Goverment 4.0</DropdownMenuLink>
 					</DropdownMenuItem>
 					<DropdownMenuItem>
-						<DropdownMenuLink>Sub menu 1</DropdownMenuLink>
+						<DropdownMenuLink to="/">Campus Digital Sylabus</DropdownMenuLink>
+					</DropdownMenuItem>
+					<DropdownMenuItem>
+						<DropdownMenuLink to="/">Community Commerce</DropdownMenuLink>
 					</DropdownMenuItem>
 				</Dropdown>
 			</MenuItem>

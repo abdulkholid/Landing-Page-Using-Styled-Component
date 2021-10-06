@@ -14,7 +14,7 @@ export const MenuLink = styled(NavLink)`
     align-items: center;
     cursor: pointer;
     color: #707574;
-    transition: 300ms ease-out ;
+    transition: 200ms ease-in ;
     
     &.active {
         font-weight: 600;

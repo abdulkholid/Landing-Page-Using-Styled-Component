@@ -1,9 +1,9 @@
 import React from 'react';
 import LogoElmoo from '../../images/logo-elmoo.png';
-import { LogoImage } from './Logo.elements';
+import { LogoLink, LogoImage } from './Logo.elements';
 
 const Logo = () => {
-	return <LogoImage src={LogoElmoo} alt="Logo Elmoo" />;
+	return <LogoLink to="/"><LogoImage src={LogoElmoo} alt="Logo Elmoo" /></LogoLink>;
 };
 
 export default Logo;

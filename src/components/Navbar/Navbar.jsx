@@ -1,21 +1,26 @@
-import { Nav, NavContainer, LeftSectionNav, MiddleSectionNav, RightSectionNav } from './Navbar.elements';
+import { Nav, NavRow, LeftSectionNav, MiddleSectionNav, RightSectionNav } from './Navbar.elements';
 import { Logo } from '../../components';
 import Menu from '../Menu/Menu';
+import Button from '../Button/Button';
 
 const Navbar = () => {
 	return (
 		<Nav>
-			<NavContainer>
-				<LeftSectionNav>
-					<Logo />
-				</LeftSectionNav>
+			<div className="container">
+				<NavRow>
+					<LeftSectionNav>
+						<Logo />
+					</LeftSectionNav>
 
-				<MiddleSectionNav>
-					<Menu />
-				</MiddleSectionNav>
+					<MiddleSectionNav>
+						<Menu />
+					</MiddleSectionNav>
 
-				<RightSectionNav>right</RightSectionNav>
-			</NavContainer>
+					<RightSectionNav>
+						<Button text="Ayo Kolaborasi" type="outline"/>
+					</RightSectionNav>
+				</NavRow>
+			</div>
 		</Nav>
 	);
 };
